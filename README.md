@@ -1,6 +1,5 @@
 # 🎮 Gerador de Personagem RPG
 
----
 
 ## 📌 Sobre o Projeto
 
