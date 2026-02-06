@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Personagem RPG</title>
+</head>
+
+<body>
+    
+    <h1>Monte o seu personagem</h1>
+    <p>Você pode escolher o nome, a classe e a principal habilidade</p>
+
+     <form  name="persona" action=" " method="post">
+
+        Digite o nome: <input type="text" name="js_nome" /> <p></p>
+        Digite a classe: <input type="text" name="js_classe" /> <p></p>
+        Digite a principal habilidade: <input type="text" name="js_habilidade" /> <p></p>
+
+        <input type="button" name="btn_gerar" value="Gerar" onclick="gerar()" />
+        <input type="reset" value="Cancelar" onclick="document.getElementById('result').style.display='none'">
+
+
+    </form>
+
+    <div id="result"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #ab806a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #48240a ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 40px;
+
+        }
+
+        p{
+            color: #48240a ;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .btn_gerar{
+            margin-top: 15px;
+            padding: 8px 20px;
+            background-color: #995a2d ;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn_gerar:hover{
+            background-color: #964B00;
+        }
+
+        .btn_cancelar{
+            background-color: #a56f48;
+        }
+
+        #result {
+          display: none;
+          margin-top: 35px;
+          background: linear-gradient(135deg, #48240a, #79421a);
+          padding: 25px;
+          border-radius: 15px;
+          width: 65%;
+          margin-left: auto;
+          margin-right: auto;
+          box-shadow: 0 10px 25px rgba(0,0,0,0.6), inset 0 0 10px rgba(255,255,255,0.15);
+          border: 3px solid #392820;
+          animation: aparecer 0.8s ease-in-out;
+
+       }
+
+        #result h2 {
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-weight: normal;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px #48240a;
+            font-size: 18px;
+            
+        }
+
+        .aviso{
+            color: white;
+           font-family: 'Courier New', Courier, monospace;
+        }
+
+        
+
+        
